@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd">
+  <!-- Root container for Inventory UI -->
+  <ui:VisualElement name="inventory-root" style="flex-direction: column; flex-grow: 1; padding: 10px;">
+    <!-- Title Label -->
+    <ui:Label text="Inventory" style="unity-font-style: bold; font-size: 20px; margin-bottom: 20px; text-align: center;" />
+
+    <!-- Inventory Slots Container -->
+    <ui:VisualElement name="inventory-slots" style="flex-direction: row; flex-wrap: wrap; justify-content: flex-start;">
+      <!-- Slots will be dynamically created here -->
+    </ui:VisualElement>
+  </ui:VisualElement>
+</ui:UXML>

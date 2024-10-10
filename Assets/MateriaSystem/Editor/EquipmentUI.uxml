@@ -1,0 +1,30 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="root-container" style="flex-direction: column; flex-grow: 1; padding: 10px; background-color: rgb(242, 255, 25); background-image: url(&quot;project://database/Assets/bgblue.png?fileID=21300000&amp;guid=81aed992986c70d438902ebfab4bf962&amp;type=3#bgblue&quot;); -unity-background-image-tint-color: rgb(89, 52, 52);">
+        <ui:Label name="title-label" text="Equipment UI" style="unity-font-style: bold; font-size: 30px; margin-bottom: 20px; text-align: center; color: rgb(255, 255, 255); -unity-font-style: bold;" />
+        <ui:VisualElement name="equipment-panel" style="flex-direction: row; justify-content: space-between; flex-grow: 1; padding: 10px;">
+            <ui:VisualElement name="weapon-slot-container" style="flex-direction: column; align-items: center;">
+                <ui:Label text="Weapon Slots" style="unity-font-style: bold; margin-bottom: 10px; font-size: 20px; color: rgb(255, 255, 255); -unity-font-style: bold;" />
+                <ui:VisualElement name="materia-slot" class="materia-slot" style="width: 257px; height: 100px; border-radius: 5px; border-width: 2px; border-color: rgb(255, 204, 0); margin: 10px; justify-content: center; align-items: center; font-size: 20px; color: rgb(255, 255, 255);">
+                    <ui:Label text="Empty Slot" style="opacity: 0.5; color: rgb(255, 255, 255); font-size: 20px; -unity-font-style: bold;" />
+                </ui:VisualElement>
+                <ui:VisualElement name="materia-slot" class="materia-slot" style="width: 251px; height: 100px; border-radius: 5px; border-width: 2px; border-color: rgb(255, 204, 0); margin: 10px; justify-content: center; align-items: center; font-size: 20px; color: rgb(255, 255, 255);">
+                    <ui:Label text="Empty Slot" style="opacity: 0.5; font-size: 20px; -unity-font-style: bold;" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="armor-slot-container" style="flex-direction: column; align-items: center; height: 506px; width: 244px;">
+                <ui:Label text="Armor Slots" style="unity-font-style: bold; margin-bottom: 10px; font-size: 20px; -unity-font-style: bold; color: rgb(255, 255, 255);" />
+                <ui:VisualElement name="materia-slot" class="materia-slot" style="width: 224px; height: 100px; border-radius: 5px; border-width: 2px; border-color: rgb(0, 204, 255); margin: 10px; justify-content: center; align-items: center; color: rgb(255, 255, 255);">
+                    <ui:Label text="Empty Slot" style="opacity: 0.5; color: rgb(255, 255, 255);" />
+                </ui:VisualElement>
+                <ui:VisualElement name="materia-slot" class="materia-slot" style="width: 229px; height: 100px; border-radius: 5px; border-width: 2px; border-color: rgb(0, 204, 255); margin: 10px; justify-content: center; align-items: center; color: rgb(255, 255, 255);">
+                    <ui:Label text="Empty Slot" style="opacity: 0.5; color: rgb(255, 255, 255);" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="inventory-section" style="flex-direction: row; padding: 10px; justify-content: space-around; color: rgb(255, 255, 255); background-color: rgb(0, 0, 0);">
+        <ui:Label text="Inventory" style="unity-font-style: bold; margin-bottom: 10px; width: 256px; height: 104px; -unity-text-align: middle-center; font-size: 25px; -unity-font-style: bold;" />
+        <ui:VisualElement name="inventory-slot" class="inventory-slot" style="width: 176px; height: 100px; border-width: 2px; margin: 10px; -unity-font-style: bold; font-size: 20px; -unity-text-align: middle-center;" />
+        <ui:VisualElement name="inventory-slot" class="inventory-slot" style="width: 199px; height: 107px; border-width: 2px; margin: 10px; font-size: 18px; -unity-font-style: bold; -unity-text-align: middle-center;" />
+    </ui:VisualElement>
+</ui:UXML>
